@@ -1,4 +1,9 @@
 -- Part 1: Test it with SQL
+--list the columns and their data types in the table as a SQL comment.
+    id int PK
+    employer varchar(255)
+    name varchar(255)
+    skills varchar(255)
 
 -- Part 2: Test it with SQL
 
