@@ -11,11 +11,13 @@ public class Skill extends AbstractEntity {
     @Size(max=500)
     private String description;
 
-    public Skill(String description)    {
-        this.description = description;
-    }
 
     public Skill()  {}
+
+    public Skill(String description)    {
+        super();
+        this.description = description;
+    }
 
     public String getDescription() {
         return description;
